@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 2000px;
+}
+.first{
+    background: #aa17dacf;
+    width: 100%;
+    height: 45px;
+}
+.first .first-1{
+    position: relative;
+    top: 13px;
+    left: 602px;
+    color: #eef5f3;
+    font-size: 8px;
+}
+.first .first-2 {
+    padding: 4px;
+    background: rgb(255, 26, 174);
+    border: none;
+    position: relative;
+    top: -6px;
+    outline: unset;
+    width: 8%;
+    left: -935px;
+}
+.first .first-2 i{
+    font-size: 18px;
+    color: antiquewhite;
+}
+.first .first-3{
+    width: 142%;
+    text-align: center;
+    padding: 150px;
+    font-size: 34px;
+    color: #fdfafc;
+    position: relative;
+    top: -164px;
+    left: 298px;
+}
+.first .first-4{
+    width: 143%;
+    text-align: center;
+    padding: 150px;
+    font-size: 15px;
+    color: #1d1b1b;
+    position: relative;
+    top: -441px;
+    left: -586px;
+}
+.second{
+    background: #fdfdff;
+    width: 100%;
+    height: 75px;
+}
+.second .second-1 {
+    font-size: 36px;
+    position: relative;
+    left: 11%;
+    color: #fff;
+    top: 12px;
+}
+
+.second .second-1 ul {
+    float: right;
+    color: #fff;
+    list-style: none;
+}
+
+.second .second-1 ul li {
+    float: left;
+    margin: 7px;
+    position: relative;
+    right: 140%;
+    font-size: 20px;
+
+}
+.second .second-1 ul a {
+    color: #1d1b1b;
+
+}
+.second .second-1 ul b{
+    color: #50c3c3;
+}
+.second .second-2{
+    position: relative;
+    top: 5px;
+    left: 1118px;
+    color: #fd1148;
+    font-size: 15px;
+}
+.second .second-3 {
+    padding: 8px;
+    background: rgb(152, 197, 128);
+    border: none;
+    position: relative;
+    top: -25px;
+    outline: unset;
+    width: 13%;
+    left: -846px;
+}
+.second .second-3 i{
+    color: #fff;
+}
+.third{
+    width: 100%;
+    height: 744px;  
+}
+.third .third-1{
+    position: relative;
+    top: -691px;
+    left: 416px;
+}
+.third .third-1 h1{
+    font-size: 51px;
+    color: #fff;
+}
+.third .third-1 h6{
+     color: #fff;
+    font-size: 23px;
+    position: relative;
+    left: 39px;}
+.third .third-2{
+    position: relative;
+    top: -651px;
+    left: 295px;
+}
+
+.third .third-3 img{
+    height: 100%;
+    width: 100%;
+    background-repeat: round;
+    background-size: cover;
+}

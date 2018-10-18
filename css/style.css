@@ -1,0 +1,416 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+
+*{
+    margin: 0;
+    padding:0; 
+}
+ 
+ /* --part 1--*/   
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  font-family: arial;
+}
+#nav-1{
+   list-style-type: none;
+    text-align: center;
+   background-color: #c409f7;
+    height: 6vh;
+    color: #fff;
+}
+#nav-1 li{
+    display: inline-block;
+}
+header {
+  height: 100vh;
+    background-image: url(https://mharty.com/wp-content/uploads/images/mpc-bg.jpg);
+}
+.container:after, .container:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Start navbar */
+.nav {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ececec;
+  min-height: 50px;
+  height: auto;
+}
+.nav .nav-heading {float: right}
+
+.nav .nav-heading .toggle-nav {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: none;
+  display: none;
+  background-color: transparent;
+}
+.nav .nav-heading > a {
+  text-decoration: none;
+  color: #000;
+  line-height: 60px;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+/* Start menu */
+.nav .menu {
+  float: left;
+}
+.nav .menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.nav .list {
+  float: left;
+  margin: 0;
+}
+.nav .list > li {
+  float: right;
+  list-style: none;
+}
+.nav .list > li > a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 10px;
+}
+.nav .list > li > a:hover,
+.nav .list > li.active > a {
+  color: #333
+}
+    #logo{
+        max-height: 26px;
+        float: right;
+    }
+    #logo img{
+        
+    max-width: 100%;
+    height: auto;
+       
+        vertical-align: middle;
+
+    }
+    header {
+        background-image: url(https://mharty.com/wp-content/uploads/images/mpc-bg.jpg);
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+        position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+            background-size: cover;
+        background-color: #4d99d6 !important;
+}
+header h1{
+        font-size: 39px;
+    
+    color: #fff!important;
+    
+      margin-top: 5%;
+    
+        display: block;
+         font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+header p{
+    color: rgba(255,255,255,.85);
+    font-family: "Droid Arabic Kufi",Tahoma,Geneva,sans-serif;
+    font-size: 19px;
+            
+    
+    
+}
+header video {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  min-width: 50%;
+  min-height: 60%;
+  width: 50%;
+  height: 400px;
+    
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  
+    
+    top: 31%;
+  left: 25%;
+  height: 378px;
+  width: 50%;
+  
+  opacity: 0.5;
+  z-index: 1;
+     background: url('https://mharty.com/wp-content/uploads/images/mpc.jpg') black no-repeat center center scroll;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://mharty.com/wp-content/uploads/images/mpc.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+/* --/part 1--*/    
+
+/* --part 2--*/
+#row2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#row2 h3 span{
+     
+        font-family: cursive;
+        font-size:40px;
+        font-weight: 700;
+    }
+
+#row2-button{
+    margin: 5%;
+    padding: 5%;
+}
+/* --/part 2--*/
+
+
+
+/* --part 3--*/
+ 
+    
+    
+    .icon{
+        width: 200px;
+        text-align: center;
+    }
+    
+    #row-3 i{
+      color: lightblue;
+        font-size: 50px;
+        text-align: center;
+        padding: 50px;
+        color: #20a3ee;
+            margin-bottom: 15px;
+            position: relative;
+   
+    }
+    
+    
+    #row-3 h3{
+       text-align: center;
+        color: #20a3ee;
+        font-weight: 500;
+        
+    }
+    
+    #row-3 p{
+     text-align: center;    
+    }
+
+/* --/part 3--*/
+
+/* --part 4--*/
+
+ #part-4:last-child{
+            margin-bottom: -50px!important;
+    display: block;
+        
+    } 
+    #part-4{
+        
+    width: 1080;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    position: relative;
+    max-width: 100%;
+        outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+        display: block;
+
+    }
+
+/* --/part 4--*/
+
+/* --part 5--*/
+h3{
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+.box{
+    padding:60px 0px;
+        background: #fafafa!important;
+}
+
+.box-part{
+    background-color: #ffffff !important;
+    
+    border-radius:10px;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+
+
+
+.box-part:hover .fa , 
+.box-part:hover .title , 
+.box-part:hover .text ,
+.box-part:hover a{
+    color:#FFF;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.text{
+    margin:20px 0px;
+}
+
+.fas{
+    
+     color:red;
+}
+
+/* --/part 5--*/
+
+
+/* --part 6--*/
+#row6{
+    
+   
+    background-image: url('../image/new.png');
+    background-position: center center;
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 100px rgba(0,0,0,.5)inset;
+    margin: 0;
+    padding: 75px 0 60px;
+    color: #fff;
+    text-align: center;
+        font-size: 100%;
+
+}
+.footer{
+    
+    background-color: #f2f2f2;
+
+}
+
+#social {
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+#social ul{
+    
+    
+}
+
+#social ul li{
+    
+  list-style-type: none;
+    display: inline-block;
+    
+}
+
+
+#footer-icons {
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+#footer-icons .pay-icons {
+    margin-left: 10px;
+}
+
+
+
+#footer-icons .pay-icons, #footer-icons .secure-icon {
+    display: inline-block;
+    color: #86938e;
+    position: relative;
+    text-align: right;
+}
+
+
+#footer-icons .pay-icons span, #footer-icons .secure-icon span {
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+
+#footer-icons .pay-icons-img {
+     border-top: 2px solid #e2e2e2;
+    background: url('../image/Paypa.png') no-repeat center center;
+    width: 600px;
+        height: 200px;
+    display: block;
+   
+    padding-top: 5px;
+}
+
+icons, #footer-icons .secure-icon {
+    display: inline-block;
+    color: #86938e;
+    position: relative;
+    text-align: right;
+}
+
+
+#footer-icons .secure-icon span {
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+#footer-icons .secure-icon span a {
+    text-decoration: none;
+    color: #4dd4ff;
+}
+
+#footer-icons .secure-icon-img {
+    background: url('../image/comodo.png') no-repeat center center;
+    width: 150px;
+    
+    height: 100px;
+    display: block;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+    height: 200px;
+    display: block;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+}
+}
+}
+/* --/part 6--*/
